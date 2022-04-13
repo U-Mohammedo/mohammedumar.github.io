@@ -1,0 +1,148 @@
+* {
+    margin: 0px auto;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    width: 1200px;
+    /*border: 2px solid rosybrown;*/
+    margin: 40px auto;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.17);
+    font-size: 100%;
+    text-align: center;
+}
+
+nav li {
+    list-style: none;
+    text-decoration: none;
+    line-height: 1.6;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 30px 0px 80px 0px;
+    padding: 60px 0px;
+}
+
+.one a,
+.two a,
+.three a,
+section a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.name {
+    margin: 50px 0px;
+}
+
+.name h2 {
+    letter-spacing: 1px;
+}
+
+main p {
+    width: 491.25px;
+    text-align: left;
+}
+
+main {
+    /*border: 2px solid royalblue;*/
+}
+
+#loadMore input[type="submit"] {
+    font-family: Helvetica, Arial, sans-serif;
+    padding: 7px 15px;
+    font-weight: bold;
+    color: #444;
+    border: none;
+    margin: 100px 0px;
+    border-radius: 6px;
+}
+
+section li {
+    list-style: none;
+    display: inline;
+}
+
+section {
+    width: 100%;
+    /*border: 2px solid royalblue;*/
+    text-align: center;
+    padding: 40px 0px;
+    background-color: #F7F7F7;
+}
+
+section ul {
+    margin: 50px 0px;
+}
+
+section li {
+    margin: 13px 10px;
+    padding: 2px 3px;
+}
+
+.footerTop h3 {
+    letter-spacing: 1px;
+}
+
+#footNote {
+    display: flex;
+    justify-content: space-between;
+    border-top: 3px solid black;
+    width: 1000px;
+    padding: 30px 0px 60px 0px;
+}
+
+.footerTop {
+    margin: 100px 0px;
+}
+
+#gallery {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0px 0px 100px 0px;
+}
+
+#gallery li {
+    float: left;
+    margin: 0px 1px;
+    padding: 2px;
+    /*border: 1px solid #DDDDDD;*/
+    list-style: none;
+}
+
+#gallery li a img {
+    float: left;
+    width: 200px;
+}
+
+#gallery li a:hover img {
+    transform: scale(1.5);
+    transform-origin: middle center;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.left {
+    width: 300px;
+    text-align: left;
+}
+
+.right input[type="text"] {
+    width: 215px;
+    padding: 5px 8px;
+    color: #666;
+    background-color: #fff;
+    border-radius: 4px;
+}
+
+.right input[type="submit"] {
+    padding: 7px 15px;
+    color: #444;
+    border: none;
+    margin: 10px 0px;
+    border-radius: 6px;
+}
